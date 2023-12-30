@@ -5,4 +5,4 @@ queries = [
   "Watermelon",
 ]
 
-Baidu.search(queries)
+Baidu.search(queries, max=10)
