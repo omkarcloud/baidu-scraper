@@ -30,7 +30,7 @@ def print_data_errors(credits_exhausted, not_subscribed, unknown_error, no_key):
 
     if not_subscribed:
         name = "queries" if len(not_subscribed) > 1 else "query"
-        print(f"Could not get data for {len(not_subscribed)} {name} as you are not subscribed to Baidu Scraper API. Please subscribe to a free plan by visiting https://rapidapi.com/Chetan11dev/api/baidu-scraper/pricing to scrape data.")
+        print(f"Could not get data for {len(not_subscribed)} {name} as you are not subscribed to Baidu Scraper API. Please subscribe to a free plan by visiting https://rapidapi.com/Chetan11dev/api/baidu-scraper/pricing")
 
     if unknown_error:
         name = "queries" if len(unknown_error) > 1 else "query"
@@ -38,7 +38,7 @@ def print_data_errors(credits_exhausted, not_subscribed, unknown_error, no_key):
 
     if no_key:
         name = "queries" if len(no_key) > 1 else "query"
-        print(f"Could not get data for {len(no_key)} {name} as you are not subscribed to Baidu Scraper API. Please subscribe to a free plan by visiting https://rapidapi.com/Chetan11dev/api/baidu-scraper/pricing to scrape data.")
+        print(f"Could not get data for {len(no_key)} {name} as you are not subscribed to Baidu Scraper API. Please subscribe to a free plan by visiting https://rapidapi.com/Chetan11dev/api/baidu-scraper/pricing")
 
       
 class Baidu:
